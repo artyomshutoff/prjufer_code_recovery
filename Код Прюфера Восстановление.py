@@ -1,3 +1,5 @@
+#artyomshutoff
+
 pruf = list(map(int, input('Введите числа через пробел: ').split(' ')))
 count = [i for i in range(1, len(pruf) + 2 + 1)]
 edges = [[0, 0] for i in range(len(count)-1)]
